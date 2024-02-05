@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Rubik+Glitch+Pop&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&family=Ubuntu:wght@300&display=swap');
+
+*
+{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Glitch Pop', system-ui;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #f3f3f3;
+    height: 100vh;
+}
+
+main
+{
+    border-top: 0.3rem solid red;
+    width: 40%;
+    min-height: 100vh;
+    background-color: #ffff;
+    margin: 2rem auto;
+    min-width: 500px;
+}
+
+.tittle_content h1
+{
+    font-family: 'Rubik Glitch Pop', system-ui;
+    text-align: center;
+}
+
+#container
+{
+    padding: 4rem ;
+}
+
+.city_box
+{
+    margin-top: 2rem;
+}
+
+.img_city
+{
+    position: relative;
+    height: 300px;
+}
+
+.img_city a, .img_city a:visited, .img_city a:focus
+{
+    color: #fff;
+}
+
+.img_city img, .img_city span
+{
+ position: absolute;
+}
+
+.img_city span
+{
+    top: 125px;
+    font-size: 2rem;
+    background-color: #32cd32;
+    width: 400px;
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s;
+    line-height: 3.5rem;
+}
+
+.img_city:hover span
+{
+    opacity: 1;
+}
+
+/* Estilo pros jornais*/
+
+.banner_content
+{
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner_content h1, .banner_content span
+{
+    font-family: 'Rubik Glitch Pop', system-ui;
+    text-align: center;
+    display: block;
+    font-size: 4rem;
+    color: #D92B04;
+}
+
+.banner_content span
+{
+    font-size: 2.5rem;
+    color: #F24130;
+}
+
+.separator
+{
+    height: 5rem;
+    background-image: url('../img/bg_predios.png');
+    background-size: 5rem;
+}
+
+#posts
+{
+    margin-top: 4rem;
+    padding-left: 2rem;
+}
+
+.post_tittle
+{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.post_img img
+{
+    width: 400px;
+    height: 300px;
+}
